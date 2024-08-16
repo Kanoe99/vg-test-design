@@ -1,0 +1,113 @@
+@font-face {
+    font-family: Manrope-Regular;
+    src: url("/assets/fonts/Manrope/static/Manrope-Regular.ttf");
+}
+@font-face {
+    font-family: Manrope-Light;
+    src: url("/assets/fonts/Manrope/static/Manrope-Light.ttf");
+}
+@font-face {
+    font-family: Manrope-Bold;
+    src: url("/assets/fonts/Manrope/static/Manrope-Bold.ttf");
+}
+@font-face {
+    font-family: Manrope-Extrabold;
+    src: url("/assets/fonts/Manrope/static/Manrope-Extrabold.ttf");
+}
+@font-face {
+    font-family: Manrope-SemiBold;
+    src: url("/assets/fonts/Manrope/static/Manrope-SemiBold.ttf");
+}
+
+*{
+    font-family: Manrope-Regular;
+    font-size: 14px;
+    margin: 0;
+    padding: 0;
+    text-wrap: nowrap;
+    color: #3f3f3f;
+}
+body{
+    background-color: #fff;
+}
+header{
+    display: flex;
+    gap: 10rem;
+    padding-top: 1rem;
+    justify-content: center;
+    position: fixed;
+    width: 100vw;
+}
+section{
+    height: 100vh;
+}
+.logo-group{
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+}
+.vertical-line{
+    width: 1px;
+    height: 30px;
+    background-color: rgb(63,63,63,0.2)
+}
+.city-mini-group{
+    display: flex;
+    gap: 2rem;
+    align-items: center;
+}
+.city-mini-img{
+    border: 5px solid white;
+    border-radius: 50px;
+    box-shadow: 0px 14px 54px rgba(0, 0, 0, 0.08);
+}
+.phone-group{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    background-color: white;
+    padding: 1rem 3rem 1rem 2rem;
+    border-radius: 50px;
+    box-shadow: 0px 14px 54px rgba(0, 0, 0, 0.08);
+}
+
+.phone-group>.img-container {
+    width: 3rem;         
+    height: 3rem;       
+    background-color: rgb(230, 32, 79); 
+    border-radius: 50%;   
+    display: flex;       
+    justify-content: center;
+    align-items: center;  
+    overflow: hidden;   
+}
+
+.phone-group img {
+    background-color: rgb(230, 32, 79);
+    height: 1.7rem;
+}
+.phone-group-text{
+    text-align: right;
+    background-color: white;
+}
+.phone-group .text-light{
+    font-size: 20px;
+    font-family: Manrope-Light;
+    color: rgb(129, 129, 129);
+}
+.phone-group .text-bold{
+    font-size: 20px;
+    font-family: Manrope-Bold;
+    color: rgb(226, 31, 77);
+}
+.phone-group .text-call{
+    font-size: 10px;
+    color: rgb(76, 76, 76)
+}
+.phone-group .green-dot{
+    background-color: rgb(121, 188, 110);
+    width: 7px;
+    height: 7px;
+    border-radius: 50px;
+    display: inline-block;
+}
